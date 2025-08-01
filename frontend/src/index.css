@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.animate-press{
+    
+    box-shadow: offset-x offset-y blur-radius spread-radius;
+}
+.animate-press:hover{
+    cursor: progress;
+}
